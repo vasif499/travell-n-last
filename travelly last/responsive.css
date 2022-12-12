@@ -1,0 +1,62 @@
+@media only screen and (max-width:992px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .section_body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .container {
+        max-width: 700px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .container {
+        max-width: 500px;
+    }
+
+    header nav {
+        padding: 20px 20px 0 20px;
+    }
+
+    #destination h2 {
+        padding-left: 45px;
+    }
+
+    #dest_p {
+        padding-left: 45px;
+    }
+
+    .section_body {
+        display: flex;
+        justify-content: center;
+    }
+
+    #visa_head h1 {
+        padding-left: 5px;
+    }
+
+    .visa_body {
+        flex-direction: column;
+        padding-left: 5px;
+    }
+
+    .footer_body p {
+        padding-left: 5px;
+    }
+
+    .footer_body nav ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

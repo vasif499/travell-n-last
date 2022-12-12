@@ -1,0 +1,28 @@
+@media only screen and (max-width:992px){
+
+
+
+    /* 2nd page */
+
+
+    .section_body{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+    
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:576px){
+
+}
